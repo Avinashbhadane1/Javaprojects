@@ -49,7 +49,6 @@ public class ProblemSolution {
         return inv;
     }
     public static int[][] keyMaker (String keyword){
-        //keyword will always be of length9
         keyword = keyword.toUpperCase();
         int [][] result = new int[3][3];
         int len = 0;
